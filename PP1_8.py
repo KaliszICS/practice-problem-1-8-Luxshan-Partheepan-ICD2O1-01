@@ -1,18 +1,42 @@
 
 def q1():
-  #Write Assignment code here
+
+  _bool1_ = True
+  _bool2_ = False
+
+  print(_bool1_ and _bool2_)
+  print(_bool1_ or _bool2_)
 
 def q2():
-  #Write Assignment code here
+
+  num = input("Enter an Integer: ") 
+  show = num != '0'
+  print(show)
+
+  
 
 def q3():
-  #Write Assignment code here
+  
+  number = input("Enter a number: ")
+  work = 0 <= int(number) <= 10
+  math = int(number) > 0
+  print(work and math)
+
+
 
 def q4():
-  #Write Assignment code here
+  food = input("Input food: ")
+  drink = input("Input drink: ")
+  pizza_and_pop = (food == "pizza" and drink == "pop")
+  print(not pizza_and_pop)
+
 
 def q5():
-  #Write Assignment code here
+  
+  noidea = int(input("Enter an integer: "))
+  coding = noidea % 2 == 0
+  print(f"The integer {noidea} is {coding}.")
+
 
 #Do not edit code after this
 #Comment out the followwing code when running tests

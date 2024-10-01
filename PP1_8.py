@@ -9,7 +9,7 @@ def q1():
 
 def q2():
 
-  num = input("Enter an Integer: ") 
+  num = input("Enter an integer: ") 
   show = num != '0'
   print(show)
 
@@ -41,8 +41,8 @@ def q5():
 #Do not edit code after this
 #Comment out the followwing code when running tests
 
-q1()
-q2()
-q3()
-q4()
-q5()
+# q1()
+# q2()
+# q3()
+# q4()
+# q5()

@@ -18,11 +18,10 @@ print(show)
 
 def q3():
   
-  number = float(input("Enter a number: "))
-  work = 0 <= number <= 10  
-  math = number > 0        
-  print(work and math)      
-  print("Invalid input")
+number = float(input("Enter a number: "))
+work = 0 <= number <= 10  
+math = number > 0 
+print(work and math or "Invalid input")
 
 
 

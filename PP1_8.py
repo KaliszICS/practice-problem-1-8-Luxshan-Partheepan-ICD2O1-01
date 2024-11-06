@@ -9,18 +9,20 @@ def q1():
 
 def q2():
 
-  num = input("Enter an integer: ") 
-  show = num != '0'
-  print(show)
+num = input("Enter an integer: ")
+show = int(num) != 0  
+print(show)
+
 
   
 
 def q3():
   
-  number = input("Enter a number: ")
-  work = 0 <= int(number) <= 10
-  math = int(number) > 0
-  print(work and math)
+  number = float(input("Enter a number: "))
+  work = 0 <= number <= 10  
+  math = number > 0        
+  print(work and math)      
+  print("Invalid input")
 
 
 
@@ -41,8 +43,8 @@ def q5():
 #Do not edit code after this
 #Comment out the followwing code when running tests
 
-# q1()
-# q2()
-# q3()
-# q4()
-# q5()
+#q1()
+#q2()
+#q3()
+#q4()
+#q5()
